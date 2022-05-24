@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 8,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-01T15:32:22.813Z",
+    "end": "2021-09-01T15:32:24.350Z",
+    "duration": 1537
+  },
+  "tests": [
+    {
+      "title": "returns all projects",
+      "fullTitle": "API Tests GET projects returns all projects",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/api.test.js",
+      "duration": 384,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "returns project with id 1",
+      "fullTitle": "API Tests GET project returns project with id 1",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/api.test.js",
+      "duration": 228,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "returns user with username leander",
+      "fullTitle": "API Tests GET user returns user with username leander",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/api.test.js",
+      "duration": 213,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "able to create a new project",
+      "fullTitle": "API Tests POST project able to create a new project",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/api.test.js",
+      "duration": 231,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Connection to DB sucessfull",
+      "fullTitle": "Database Tests Connection to DB with mongoURI Connection to DB sucessfull",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/db.test.js",
+      "duration": 472,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Connection to DB should fail",
+      "fullTitle": "Database Tests Connection to DB with wrong mongoURI Connection to DB should fail",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/db.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns all projects",
+      "fullTitle": "API Tests GET projects returns all projects",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/api.test.js",
+      "duration": 384,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "returns project with id 1",
+      "fullTitle": "API Tests GET project returns project with id 1",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/api.test.js",
+      "duration": 228,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "returns user with username leander",
+      "fullTitle": "API Tests GET user returns user with username leander",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/api.test.js",
+      "duration": 213,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "able to create a new project",
+      "fullTitle": "API Tests POST project able to create a new project",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/api.test.js",
+      "duration": 231,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Connection to DB sucessfull",
+      "fullTitle": "Database Tests Connection to DB with mongoURI Connection to DB sucessfull",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/db.test.js",
+      "duration": 472,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Connection to DB should fail",
+      "fullTitle": "Database Tests Connection to DB with wrong mongoURI Connection to DB should fail",
+      "file": "/Users/leonardoschuster/Documents/ba-workspace/ba-2021/App/ba-project/test/db.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

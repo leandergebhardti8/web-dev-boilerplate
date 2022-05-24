@@ -1,0 +1,97 @@
+// Buttons
+.btn-primary {
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-weight: 500;
+}
+.btn-primary:hover {
+    background-color: black;
+    -webkit-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+}
+.btn-secondary {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+.btn-secondary.close_btn:hover {
+    background-color: transparent;
+    font-weight: 600;
+    color: white;
+}
+.btn-secondary:hover {
+    background-color: transparent;
+    font-weight: 600;
+    color: black;
+}
+.btn-secondary:active {
+    background-color: transparent;
+    color: black;
+}
+.btn-secondary:focus {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+.btn-secondary.button {
+    background-color: transparent;
+    color: black;
+}
+.btn-secondary.dropdown-toggle {
+    color: black;
+}
+
+.btn-secondary.dropdown-toggle:visited {
+    border: none;
+}
+
+.close_btn {
+    left: 0;
+    float: left;
+    position: absolute;
+    margin: 2rem;
+    color: white;
+}
+.home-btn {
+    left: 0;
+    float: left;
+    position: absolute;
+    margin: 2rem;
+    border-radius: 50%;
+    padding: 15px 17px;
+  }
+
+// Dropdown
+.dropdown-toggle::after {
+    display: none;
+}
+
+.control_bar .btn.dropdown-toggle.btn-secondary {
+    border: 1px solid white;
+    padding: 15px 35px;
+    border-radius: 35px !important;
+    color: white;
+}
+
+.btn.dropdown-toggle.btn-secondary:hover {
+    font-weight: normal;
+}
+
+.control_bar .btn-check:checked + .btn-secondary, .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle {
+    background-color: transparent;
+}
+
+.control_bar .btn-group, .btn-group-vertical {
+    margin: 1.25rem;
+}
+
+// Spacer
+.space-medium {
+    margin: 2rem 0 2rem !important;
+}
+.space-medium-bottom {
+    margin-bottom: 2rem !important;
+}
